@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+:root {
+    --text-white: #ffffff;
+}
+
+.text-white {
+    color: var(--text-white);
+}
+
+.flex {
+    display: flex;
+}
+
+.text-md {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+nav {
+    padding: 20px 50px;
+}
+
+nav h1 {
+    font-weight: 600;
+    flex: 1;
+    font-size: 30px;
+    align-self: center;
+}
+
+.nav-list {
+    justify-content: flex-end;
+    flex: 4;
+}
+
+.nav-items {
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    flex: 70;
+}
+
+.contact {
+    flex: 40;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-line {
+    border: none;
+    border-top: 3px solid var(--text-white);
+    width: 80%;
+    margin-left: 295px;
+}
+
+main {
+    padding: 0 50px;
+    height: 50%;
+}
+
+.top {
+    margin: 7% 0;
+}
+
+.title {
+    flex: 2;
+    font-size: 80px;
+}
+
+.info-top {
+    flex: 1;
+    align-self: flex-start;
+}
+
+.bottom {
+    display: flex;
+}
+
+.btn {
+    flex: 1;
+    align-self: flex-start;
+}
+
+.info-bottom {
+    flex: 1;
+}
+
+.infocard {
+    background-color: rgba(209, 209, 209, 0.315);
+    width: 60%;
+    padding: 20px 30px;
+    position: relative;
+}
+
+.infocard p i {
+    background-color: var(--text-white);
+    padding: 10px 25px;
+    color: #000;
+    border-radius: 40px;
+    margin-bottom: 15px;
+}
+
+.btn a {
+    color: var(--text-white);
+    text-decoration: none;
+    padding: 15px 50px;
+    font-size: 25px;
+    border: 3px solid var(--text-white);
+    border-radius: 50px;
+}
+
+.vertical-line {
+    width: 2px;
+    background-color: var(--text-white);
+    height: 80px;
+    position: absolute;
+    left: 70%;
+    top: 100%;
+}
+
+.horizontal-line {
+    width: 80px;
+    background-color: var(--text-white);
+    height: 2px;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background: var(--text-white);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.circle-top {
+    left: calc(70% - 8px);
+    top: calc(100% + 80px);
+}
+
+.circle-bottom {
+    left: calc(100% + 80px);
+    top: calc(50% - 8px);
+}
